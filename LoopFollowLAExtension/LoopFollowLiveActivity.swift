@@ -93,7 +93,7 @@ private struct LockScreenFamilyAdaptiveView: View {
 
 private struct SmallFamilyView: View {
     let snapshot: GlucoseSnapshot
-
+///edits below here
     /// Unit label for the right slot — ISF appends "/U", other glucose slots
     /// use the plain glucose unit, non-glucose slots return nil.
     private func rightSlotUnitLabel(for slot: LiveActivitySlotOption) -> String? {
